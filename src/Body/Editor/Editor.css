@@ -1,0 +1,115 @@
+.Editor {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 1in;
+}
+
+.Editor:focus {
+  border: none;
+  outline: none;
+}
+
+.span-b {
+  font-weight: bold;
+}
+
+.un-span-b {
+  font-weight: normal;
+}
+
+.span-font-8 {
+  font-size: 0.111111in;
+}
+
+.span-font-9 {
+  font-size: 0.125in;
+}
+
+.span-font-10 {
+  font-size: 0.138889in;
+}
+
+.span-font-11 {
+  font-size: 0.152778in;
+}
+
+.span-font-12 {
+  font-size: 0.166667in;
+}
+
+.span-font-14 {
+  font-size: 0.194444in;
+}
+
+.span-font-16 {
+  font-size: 0.222222in;
+}
+
+.span-font-18 {
+  font-size: 0.25in;
+}
+
+.span-font-20 {
+  font-size: 0.277778in;
+}
+
+.span-font-22 {
+  font-size: 0.305556in;
+}
+
+.span-font-24 {
+  font-size: 0.333333in;
+}
+
+.span-font-28 {
+  font-size: 0.388889in;
+}
+
+.span-font-36 {
+  font-size: 0.5in;
+}
+
+.span-font-48 {
+  font-size: 0.666667in;
+}
+
+.span-font-72 {
+  font-size: 1in;
+}
+
+.span-font-select-arial {
+  font-family: Arial;
+}
+
+.span-font-select-calibri {
+  font-family: Calibri;
+}
+
+.span-font-select-cambria {
+  font-family: Cambria;
+}
+
+.span-font-select-candara {
+  font-family: Candara;
+}
+
+.span-font-select-georgia {
+  font-family: Georgia;
+}
+
+.span-font-select-times-new-roman {
+  font-family: "Times New Roman";
+}
+
+.span-font-select-segoe-ui {
+  font-family: "Segoe UI";
+}
+
+.span-font-select-impact {
+  font-family: Impact;
+}
+
+.span-font-select-verdana {
+  font-family: Verdana;
+}

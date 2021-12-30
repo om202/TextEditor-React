@@ -1,0 +1,29 @@
+#options {
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+}
+
+#options-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+#options-list > li {
+    width: fit-content;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+#options-list > li:hover{
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+.icons {
+    filter: invert();
+    width: 1.1rem;
+}
