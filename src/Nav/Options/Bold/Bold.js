@@ -1,10 +1,15 @@
 import React from "react";
 import bold from "../../../icons/bold.svg";
 
-const Bold = ({applyStyle}) => {
-  
+const Bold = ({ applyStyle }) => {
   return (
-    <img src={bold} alt="Bold" onClick={()=>applyStyle('span-b')} id="bold" className="icons" />
+    <img
+      src={bold}
+      alt="Bold"
+      onClick={() => applyStyle("span-b")}
+      id="bold"
+      className="icons"
+    />
   );
 };
 

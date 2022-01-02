@@ -1,14 +1,16 @@
 import React from "react";
 import undo from "../../icons/corner-up-left.svg";
 import redo from "../../icons/corner-up-right.svg";
-import italics from "../../icons/italic.svg";
 import left from "../../icons/align-left.svg";
 import center from "../../icons/align-center.svg";
 import right from "../../icons/align-right.svg";
 import "./Options.css";
 import Bold from "./Bold/Bold";
+import Italics from "./Italics";
 import FontSize from "./FontSize/FontSize";
 import FontSelect from "./FontSelect/FontSelect";
+import ColorSelect from "./ColorSelect/ColorSelect";
+import AlignLeft from "./AlignLeft";
 
 const applyEl = (selection, range, style) => {
   let e = document.createElement("span");
@@ -44,10 +46,10 @@ const Options = () => {
           <Bold applyStyle={applyStyle} />
         </li>
         <li>
-          <img src={italics} alt="Italics" id="italics" className="icons" />
+          <Italics applyStyle={applyStyle} />
         </li>
         <li>
-          <img src={left} alt="Left" id="left" className="icons" />
+          <AlignLeft applyStyle={applyStyle} />
         </li>
         <li>
           <img src={center} alt="Center" id="center" className="icons" />
@@ -60,6 +62,9 @@ const Options = () => {
         </li>
         <li>
           <FontSelect applyStyle={applyStyle} />
+        </li>
+        <li>
+          <ColorSelect applyStyle={applyStyle} />
         </li>
       </ul>
     </div>

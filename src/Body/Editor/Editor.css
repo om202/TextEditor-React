@@ -14,6 +14,15 @@
   font-weight: bold;
 }
 
+.span-i {
+  font-style: italic;
+}
+
+.span-align-left {
+  right: 10;
+  color: goldenrod;
+}
+
 .un-span-b {
   font-weight: normal;
 }
@@ -78,6 +87,7 @@
   font-size: 1in;
 }
 
+/**Font family selector**/
 .span-font-select-arial {
   font-family: Arial;
 }
@@ -113,3 +123,26 @@
 .span-font-select-verdana {
   font-family: Verdana;
 }
+/**Font family selector**/
+
+/**Font color selector**/
+.span-font-color-red {
+  color: red;
+}
+
+.span-font-color-green {
+  color: green;
+}
+
+.span-font-color-yellow {
+  color: yellow;
+}
+
+.span-font-color-blue {
+  color: blue;
+}
+
+.span-font-color-black {
+  color: black;
+}
+/**Font color selector**/

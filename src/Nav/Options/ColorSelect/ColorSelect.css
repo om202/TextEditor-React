@@ -1,0 +1,8 @@
+.colorBox {
+  width: 8px;
+  height: 8px;
+}
+
+#red::selection {
+  background-color: red;
+}
