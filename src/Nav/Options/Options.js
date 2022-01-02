@@ -5,6 +5,7 @@ import left from "../../icons/align-left.svg";
 import center from "../../icons/align-center.svg";
 import right from "../../icons/align-right.svg";
 import "./Options.css";
+import Save from "./Save"
 import Bold from "./Bold/Bold";
 import Italics from "./Italics";
 import FontSize from "./FontSize/FontSize";
@@ -36,6 +37,9 @@ const Options = () => {
   return (
     <div id="options">
       <ul id="options-list">
+        <li>
+          <Save/>
+        </li>
         <li>
           <img src={undo} alt="Undo" id="undo" className="icons" />
         </li>
